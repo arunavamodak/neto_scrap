@@ -1,0 +1,148 @@
+Started GET "/api/scrap_data" for ::1 at 2020-11-26 18:38:21 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::ScrapingsController#scrap_data as JSON
+Completed 200 OK in 75875ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 50468)
+
+
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 17:47:25 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::ScrapingsController#scrap_data as JSON
+Completed 200 OK in 105651ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 50334)
+
+
+Started GET "/api/scrap_data?%22SKU%22=%20%22%20220001%22,&%22Name%22=%20%2218V%20Charge-All%20Hammer%20Drill%22" for ::1 at 2020-11-27 17:54:23 +0530
+Processing by Api::ScrapingsController#scrap_data as JSON
+  Parameters: {"\"SKU\""=>" \" 220001\",", "\"Name\""=>" \"18V Charge-All Hammer Drill\""}
+Completed 200 OK in 111066ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 49638)
+
+
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 19:53:38 +0530
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::ScrapingsController#scrap_data as JSON
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 19:55:29 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::ScrapingsController#scrap_data as JSON
+Completed 200 OK in 112733ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 52769)
+
+
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 19:55:35 +0530
+Processing by Api::ScrapingsController#scrap_data as JSON
+Completed 200 OK in 107088ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 98247)
+
+
+Completed 200 OK in 113796ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 96956)
+
+
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 19:57:34 +0530
+Processing by Api::ScrapingsController#scrap_data as JSON
+Completed 200 OK in 110899ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 49857)
+
+
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 20:00:01 +0530
+Processing by Api::ScrapingsController#scrap_data as JSON
+Completed 200 OK in 101370ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 49866)
+
+
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 20:02:36 +0530
+Processing by Api::ScrapingsController#scrap_data as JSON
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 20:02:50 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::ScrapingsController#scrap_data as JSON
+Completed 200 OK in 108129ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 94596)
+
+
+Completed 200 OK in 107309ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 93888)
+
+
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 20:05:47 +0530
+Processing by Api::ScrapingsController#scrap_data as JSON
+Completed 200 OK in 98428ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 50121)
+
+
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 20:13:21 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::ScrapingsController#scrap_data as JSON
+Started GET "/api/scrap_data" for ::1 at 2020-11-27 20:14:15 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::ScrapingsController#scrap_data as JSON
+Completed 200 OK in 128575ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 80421)
+
+
+Completed 200 OK in 132845ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 80479)
+
+
+Started POST "/scrap_data" for ::1 at 2020-11-29 13:13:05 +0530
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [POST] "/scrap_data"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/scrap_data" for ::1 at 2020-11-29 13:14:25 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/api/scrap_data"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/scrap_data" for ::1 at 2020-11-29 13:14:52 +0530
+Processing by Api::ScrapingsController#scrap_data as JSON
+  Parameters: {"SKU"=>"hello world", "Name"=>"status check", "Active"=>"true", "RRP"=>"5000.00", "DefaultPrice"=>"3000.00", "Categories"=>"{Category: [{CategoryID: 107,Priority: 100}]"}
+Completed 200 OK in 92090ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 50557)
+
+
